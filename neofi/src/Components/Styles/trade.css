@@ -1,0 +1,212 @@
+  
+ .trade-Main{
+    position: relative;
+    background: #1C1731;
+    height: 100vh;
+     overflow:auto;
+ }
+.token-list{ 
+width: 30%;;
+ margin: auto;
+ margin-top: 10%;
+ height: 75%;
+ display: grid;
+ /* gap: 1%; */
+ align-items: center;
+ border: 0.1px solid #40404F;
+ border-radius: 18px;
+}
+.amount-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+    
+}
+.amount-list>p{
+    font-family: 'Poppins';
+    font-style: normal; 
+    color: white;
+}
+.rupeelogo{
+    
+border: 0.1px solid #40404F; 
+}
+.current{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+/* line-height: 36px; */
+text-align: right;
+color: #627EEA; 
+ 
+}
+.currentAmount{
+display: flex;
+align-items: center;
+gap: 10px;
+
+}
+ 
+.token-amount{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+    width:95%;
+    margin: auto;
+    height: 40px;
+     padding-left: 5%;
+     background: #1C1731;
+border-radius: 10px;
+border: 0.1px solid rgba(110, 86, 248, 0.25);
+color:#6F6F7E;
+}
+ 
+.token-dropdown{
+     
+    display: flex;
+    width:90%;
+    margin: auto;
+    height: 40px;
+    background: #1C1731;
+    border-radius: 10px;
+}
+.token-dropdown1{
+    position: relative;
+    width:85%;
+    border: none;
+       
+    height: 50px;
+     padding: 2%;
+     background: #1C1731;
+border-radius: 10px;
+color: #FFFFFF;
+}
+ 
+.trade-btn{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+    width:90%;
+    margin: auto;
+    color: white;
+     height: 50px;
+    background: linear-gradient(94.37deg, #3387D5 -5.94%, #7A06C9 115.34%);
+border-radius: 30px;
+}
+.token-logo{
+    margin: auto;
+width: 25px;
+ 
+ 
+}
+.midlogo-box{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 47%;
+top: 15%;
+ border-left: 0.1px solid #40404F;
+ border-right: 0.1px solid #40404F;
+ border-bottom: 0.1px solid #40404F;
+  
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ background-color: #1C1731;
+}
+.midlogo-box>img{
+    margin-left: 25px;
+}
+.inrlogo{
+    position: absolute;
+width: 25px;
+height: 24px;
+left: 60%;
+top: 59%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.input-heading1{
+margin-left: 5%;
+color:#DCDCEC;;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+
+}
+.input-heading2{
+    margin-left: 5%;
+    color:#DCDCEC;;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+.inside-div{
+    width: 90%;
+    margin: auto;
+}
+.token-list-modal{
+ margin: auto;
+ margin-top: 10%;
+ height: 64vh;
+  
+ display: grid;
+ /* gap: 1%; */
+ align-items: center;
+ border: 0.1px solid #40404F;
+  
+ border-bottom: none;
+ background-color: #1C1731;
+}
+.modalfooter{
+    display: grid;
+}
+
+
+
+
+
+@media  screen and (max-width: 767px){
+    .searchbox{
+    display:none
+    }
+    .modalfooter{
+        display: none;
+    }
+
+    .token-list-modal{
+        display: none;
+     
+         margin: auto;
+        margin-top: 48%;
+        height: 64vh;
+       
+        
+         
+        align-items: center;
+        border: none;
+         
+        border-bottom: none;
+        background-color: transparent; 
+       }
+
+       .token-list{
+        width: 90%;
+        margin: auto;
+        margin-top: 30%;
+       }
+       .midlogo-box{
+        top:10%
+       }
+}

@@ -1,0 +1,143 @@
+.navMain{
+    position: absolute;
+width: 100%;
+height: 69px;
+left: 0px;
+top: 0px;
+
+background: #0B0819;
+}
+ 
+.frame2{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 5%;
+
+position: absolute;
+width: 30%;
+height: 24px;
+left: 37%;
+top: 27px;
+
+}
+.trade{
+    text-decoration: none;
+    width: 48px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #627EEA;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.earn{
+    width: 50px;
+    height: 24px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-transform: capitalize;
+    
+    color: #5A5A5A;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none;
+}
+.support{
+/* SUPPORT */
+
+text-decoration: none;
+width: 75px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #5A5A5A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.about{
+    text-decoration: none;
+    width: 60px;
+    height: 24px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-transform: capitalize;
+    
+    color: #5A5A5A;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.navbtn{
+    box-sizing: border-box;
+
+position: absolute;
+width: 14%;
+height: 40px;
+left: 80%;
+top: 14px;
+
+background: linear-gradient(94.37deg, #3387D5 -5.94%, #7A06C9 115.34%);
+border-radius: 30px;
+color: white;
+}
+
+@media  screen and (max-width: 767px){
+    .frame2{
+        display: none;
+    }
+    .navbtn{
+        width: 35%;
+        left: 60%;
+    }
+
+}
