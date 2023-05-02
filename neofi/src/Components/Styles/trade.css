@@ -160,9 +160,7 @@ font-weight: 400;
  margin: auto;
  margin-top: 10%;
  height: 64vh;
-  
  display: grid;
- /* gap: 1%; */
  align-items: center;
  border: 0.1px solid #40404F;
   

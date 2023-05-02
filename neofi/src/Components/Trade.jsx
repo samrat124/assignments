@@ -91,14 +91,15 @@ const TokenList = () => {
           pointerEvents="none"
           children={<Search2Icon color="gray.600" />}
         />
-        <Input type="text" w='300px'   margin='auto' placeholder="Search..." border="1px solid #949494" className='searchbox'/>
+        <Input type="text" w='300px'   margin='auto' placeholder="Search..." border="1px solid #949494" className='searchbox' onChange={(e)=>{
+
+              
+        }}/>
         <InputRightAddon
           p={0}
           border="none"
         >
-          {/* <Button size="sm" borderLeftRadius={0} borderRightRadius={3.3} border="1px solid #949494">
-            Search
-          </Button> */}
+           
         </InputRightAddon>
       </InputGroup>
                </ModalHeader>
